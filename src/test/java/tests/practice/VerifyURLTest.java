@@ -1,7 +1,6 @@
 package tests.practice;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import utils.BrowserFactory;
 
 public class VerifyURLTest {
@@ -22,7 +21,7 @@ public class VerifyURLTest {
             System.out.println("actual URL = "+actualURL);
             System.out.println("expected URL = "+expectedURL);
         }
-
+        driver.close();
 
     }
 }
