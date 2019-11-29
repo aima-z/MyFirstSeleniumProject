@@ -1,6 +1,5 @@
 package tests.day5;
 
-import org.graalvm.compiler.asm.sparc.SPARCAssembler;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
